@@ -41,7 +41,7 @@ header-includes:
 pwd
 ```
 Результат: `/home/linux`  
-![](1.jpeg)
+![](image/1.png)
 
 ---
 
@@ -51,15 +51,15 @@ pwd
 ```bash
 cd /tmp
 ```
-![](2.jpeg)
+![](/image/2.png)
 
 **2.2. Просмотр содержимого:**
 - `ls` — краткий список  
-![](image/3.jpeg)
+![](image/3.png)
 
 - `ls -l` — подробный список (права, владельцы, размер и дата)  
-![](image/4.jpeg)  
-![](image/5.jpeg)
+![](image/4.png)  
+![](image/5.png)
 
 Разница: `ls` показывает только имена файлов, `ls -l` — подробную информацию.
 
@@ -71,7 +71,7 @@ ls -l /var/spool | grep cron
 ls -ld /var/spool/cron
 ```
 Каталог существует.  
-![](image/6.jpeg)
+![](image/6.png)
 
 ---
 
@@ -80,7 +80,7 @@ ls -ld /var/spool/cron
 cd ~
 ls -l
 ```
-![](image/7.jpeg)
+![](image/7.png)
 
 Видно, что владельцем файлов является пользователь **linux**.
 
@@ -92,19 +92,19 @@ ls -l
 ```bash
 mkdir ~/newdir
 ```
-![](image/8.jpeg)
+![](image/8.png)
 
 - Создание трёх каталогов одной командой:  
 ```bash
 mkdir ~/letters ~/memos ~/misk
 ```
-![](image/9.jpeg)
+![](image/9.png)
 
 - Удаление их одной командой:  
 ```bash
 rmdir ~/letters ~/memos ~/misk
 ```
-![](image/10.jpeg)
+![](image/10.png)
 
 ---
 
@@ -112,7 +112,7 @@ rmdir ~/letters ~/memos ~/misk
 
 - Попытка удалить `~/newdir` с помощью `rm` приводит к ошибке (требуется ключ `-r`).  
 - Попытка удалить `~/newdir/morefun` не удалась, так как такого каталога нет.  
-![](image/11.jpeg)
+![](/image/11.png)
 
 ---
 
@@ -120,7 +120,7 @@ rmdir ~/letters ~/memos ~/misk
 ```bash
 man ls
 ```
-![](image/12.jpeg)
+![](image/12.png)
 
 ---
 
@@ -128,7 +128,7 @@ man ls
 ```bash
 ls -R
 ```
-![](image/13.jpeg)
+![](image/13.png)
 
 ---
 
@@ -136,12 +136,12 @@ ls -R
 ```bash
 ls -lt
 ```
-![](image/14.jpeg)
+![](image/14.png)
 
 ```bash
 ls -ltr
 ```
-![](image/15.jpeg)
+![](image/15.png)
 
 ---
 
@@ -149,7 +149,7 @@ ls -ltr
 ```bash
 history
 ```
-![](image/16.jpeg)
+![](image/16.png)
 
 # Контрольные вопросы
 
